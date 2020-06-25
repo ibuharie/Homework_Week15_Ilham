@@ -258,10 +258,10 @@ Using Form Hack Firefox Extension, the username that was hidden appears to be "y
 ![](C:\Users\Ilham Buharie\Google Drive\CyberSecBootCamp\CyberSecBootCamp\Ilham_Week15\Homework\Homework_Week15_Ilham\Screenshots\Challeneg Username.png)
 
 ```
-Password is "goodbye"
+Path traversed to the java source page to find the password. Password is "goodbye". See screenshot below.
 ```
 
-
+![](C:\Users\Ilham Buharie\Google Drive\CyberSecBootCamp\CyberSecBootCamp\Ilham_Week15\Homework\Homework_Week15_Ilham\Screenshots\Challeneg Username&Password.png)
 
 #### Challenge #2
 
