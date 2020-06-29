@@ -1,5 +1,5 @@
 ## Unit 15 Homework: Web Vulnerabilities and Hardening
-
+Please include the Screenshots folder in the same directory as this markdown file to view the screenshots.
 ### Overview
 
 This week, you continued your journey towards enhancing your technical acuity through a deeper understanding of web vulnerabilities and system hardening used to help protect and defend critical web infrastructure.
@@ -255,13 +255,13 @@ After completing the first challenge, you will be provided with an option to con
 Using Form Hack Firefox Extension, the username that was hidden appears to be "youaretheweakestlink"
 ```
 
-![](C:\Users\Ilham Buharie\Google Drive\CyberSecBootCamp\CyberSecBootCamp\Ilham_Week15\Homework\Homework_Week15_Ilham\Screenshots\Challeneg Username.png)
+![](Screenshots\Challeneg Username.png)
 
 ```
 Path traversed to the java source page to find the password. Password is "goodbye". See screenshot below.
 ```
 
-![](C:\Users\Ilham Buharie\Google Drive\CyberSecBootCamp\CyberSecBootCamp\Ilham_Week15\Homework\Homework_Week15_Ilham\Screenshots\Challeneg Username&Password.png)
+![](Screenshots\Challeneg Username&Password.png)
 
 #### Challenge #2
 
@@ -273,25 +273,25 @@ Next, steal all of the credit card numbers from the database.
 
 After completing the second challenge, you will be provided with an option to continue to the next challenge.
 
-![](C:\Users\Ilham Buharie\Google Drive\CyberSecBootCamp\CyberSecBootCamp\Ilham_Week15\Homework\Homework_Week15_Ilham\Screenshots\Challeneg Stage2.png)
+![](Screenshots\Challeneg Stage2.png)
 
 ```
 After inspecting the HTTP post using BURP Suite, decided to use the password and inject an additional query. Before the query could be inserted it needed to be converted to base64 as shown in the picture below. the additions to the SQl query are essentially a wild card request that asks for everything.
 ```
 
-![](C:\Users\Ilham Buharie\Google Drive\CyberSecBootCamp\CyberSecBootCamp\Ilham_Week15\Homework\Homework_Week15_Ilham\Screenshots\Base64Encode.png)
+![](Screenshots\Base64Encode.png)
 
 ```
 By intercepting the post request in Burp Suite, modifying the header with the encoded SQL query and forwarding the request as shown in the picture below.
 ```
 
-![](C:\Users\Ilham Buharie\Google Drive\CyberSecBootCamp\CyberSecBootCamp\Ilham_Week15\Homework\Homework_Week15_Ilham\Screenshots\Challeneg Stage2 BurpSuite.png)
+![](Screenshots\Challeneg Stage2 BurpSuite.png)
 
 ```
 All the credit card numbers now appear on the drop down list.
 ```
 
-![](C:\Users\Ilham Buharie\Google Drive\CyberSecBootCamp\CyberSecBootCamp\Ilham_Week15\Homework\Homework_Week15_Ilham\Screenshots\Challeneg CreditCards.png)
+![](Screenshots\Challeneg CreditCards.png)
 
 #### Challenge #3
 
@@ -306,24 +306,24 @@ Two clues:
   Contrary to the hint above, the WebGoat challenge requested to deface webgoat_challenge_webgoat.jsp. The first step is to find where this file is located. By loggign in to the OWASP box and running a find command, the file was located.
   ```
 
-  ![](C:\Users\Ilham Buharie\Google Drive\CyberSecBootCamp\CyberSecBootCamp\Ilham_Week15\Homework\Homework_Week15_Ilham\Screenshots\Challeneg Stage3 webpagelocation.png)
+  ![](Screenshots\Challeneg Stage3 webpagelocation.png)
 
   ```
   Using Burp Suite and intercepting the POST request, it can be identified that the File parameter resembled a command line input. The POST request was intercepted and  the File parameter was modified to append a simple HTML text in to the Web page.
   ```
 
-  ![](C:\Users\Ilham Buharie\Google Drive\CyberSecBootCamp\CyberSecBootCamp\Ilham_Week15\Homework\Homework_Week15_Ilham\Screenshots\Challeneg Stage3 Burpsuite.png)
+  ![](Screenshots\Challeneg Stage3 Burpsuite.png)
 
   ```
   A picture of the defaced website is shown below
   ```
 
-  ![](C:\Users\Ilham Buharie\Google Drive\CyberSecBootCamp\CyberSecBootCamp\Ilham_Week15\Homework\Homework_Week15_Ilham\Screenshots\Challeneg Stage3 defacedwebsite.png)
+  ![](Screenshots\Challeneg Stage3 defacedwebsite.png)
 
   ```
   A picture of the completed challenge page is shown below
   ```
 
-  ![](C:\Users\Ilham Buharie\Google Drive\CyberSecBootCamp\CyberSecBootCamp\Ilham_Week15\Homework\Homework_Week15_Ilham\Screenshots\Challeneg CongratulationsPage.png)
+  ![](Screenshots\Challeneg CongratulationsPage.png)
 
-![](C:\Users\Ilham Buharie\Google Drive\CyberSecBootCamp\CyberSecBootCamp\Ilham_Week15\Homework\Homework_Week15_Ilham\Screenshots\CongratsChallengeComplete.png)
+![](Screenshots\CongratsChallengeComplete.png)
